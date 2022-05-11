@@ -1,0 +1,14 @@
+.button {
+  padding: 5px 10px;
+  background-color: mediumaquamarine;
+  color: darkblue;
+  border: none;
+  box-shadow: -1px 2px 4px 0px #0ba23a;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 170px;
+}
+.button:hover {
+  transform: translateX(5px);
+}

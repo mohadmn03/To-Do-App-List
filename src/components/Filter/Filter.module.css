@@ -1,0 +1,20 @@
+.filter {
+  margin-bottom: 20px;
+}
+.filter input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid darkblue;
+  font-size: 17px;
+  outline: none;
+  color: darkblue;
+  caret-color: darkblue;
+  transition: all 0.3s;
+}
+.filter input::placeholder {
+  color: darkblue;
+  opacity: 0.3;
+}
+.filter input:hover {
+  transform: translateX(20px);
+}

@@ -1,0 +1,31 @@
+.studentCard {
+  display: flex;
+  justify-content: space-between;
+  color: lightcyan;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid brown;
+  border-radius: 6px;
+}
+.id {
+}
+.name {
+}
+.age {
+}
+.exc {
+  color: darkblue;
+}
+.removeStudent {
+  background-color: #eee;
+  color: black;
+  width: 15px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+.removeStudent:hover {
+  background-color: rgb(130, 123, 123);
+  color: white;
+}

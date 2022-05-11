@@ -1,0 +1,38 @@
+.container {
+  margin: 50px auto;
+  width: 600px;
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 7px;
+  box-shadow: 0px -3px 9px 1px #00e4ff;
+}
+.studentCards {
+}
+.studentCards.show {
+  display: block;
+}
+.studentCards.hide {
+  display: none;
+}
+.title {
+  text-align: center;
+  margin: 0 0 20px;
+  text-shadow: 2px -2px 3px #279668;
+  animation: rightToLeft 2s linear infinite;
+}
+@keyframes rightToLeft {
+  0%,
+  100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+}
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}

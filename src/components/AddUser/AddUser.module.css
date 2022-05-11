@@ -1,0 +1,32 @@
+.backdrop {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #554a0e;
+  z-index: 9000;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  visibility: hidden;
+  transition: all 0.2s;
+}
+.backdrop.showBD {
+  opacity: 0.8;
+  visibility: visible;
+}
+.menu {
+  width: 500px;
+  height: 400px;
+  background-color: #7c9ca9;
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 90000;
+  border-radius: 6px;
+  transition: all 0.2s;
+  padding: 30px;
+}
+.menu.showM {
+  top: 50%;
+}
